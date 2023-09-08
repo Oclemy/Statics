@@ -6,6 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  noIndex: true,
   title: 'Our Apps',
   tagline: 'Static Files for our apps',
   // favicon: 'img/favicon.ico',
