@@ -1,0 +1,23 @@
+JSON
+
+`{
+ "name": "your-project-name",
+ "sources": [
+ {
+ "dir": "src", 
+ "subdirs": true
+ }
+ ],
+ "package-specs": [
+ {
+ "module": "es6",
+ "in-source": true
+ }
+ ],
+ "suffix": ".bs.js",
+ "bs-dependencies": []
+}`
+
+
+
+
