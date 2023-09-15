@@ -1,0 +1,85 @@
+# Docs
+
+* ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Introduction](/_next/image?url=%2Fimg%2Fintroduction.svg&w=32&q=75)![Introduction](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Introduction](/_next/image?url=%2Fimg%2Fintroduction-white.svg&w=32&q=75)![Introduction](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)Introduction
+	+ [Why Blitz?](/docs/why-blitz)
+	+ [Get Started](/docs/get-started)
+	+ [Learning Path](/docs/learning-path)
+	+ [Tutorial](/docs/tutorial)
+	+ [With Existing Next.js App](/docs/blitz-with-next)
+	+ [Upgrading to Blitz 2.0](/docs/upgrading-from-framework)
+* ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Community](/_next/image?url=%2Fimg%2Fpeople-purple.svg&w=32&q=75)![Community](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Community](/_next/image?url=%2Fimg%2Fpeople-white.svg&w=32&q=75)![Community](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)Community
+	+ [How the Community Operates](/docs/how-the-community-operates)
+	+ [Manifesto](/docs/manifesto)
+	+ [History](/docs/community-history)
+	+ [How to Contribute](/docs/contributing)
+	+ [Being a Maintainer](/docs/maintainers)
+	+ [Code of Conduct](/docs/code-of-conduct)
+	+ [Doc Translations](/docs/translations)
+* ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Basics](/_next/image?url=%2Fimg%2Fbasics.svg&w=32&q=75)![Basics](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Basics](/_next/image?url=%2Fimg%2Fbasics-white.svg&w=32&q=75)![Basics](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)Basics
+	+ [File Structure](/docs/file-structure)
+	+ [Custom Environments](/docs/custom-environments)
+	+ [Error Handling](/docs/error-handling)
+	+ [Testing](/docs/testing)
+	+ [HTTP Middleware](/docs/middleware)
+	+ [Client Plugins](/docs/client-plugin)
+	+ [Logging](/docs/logging)
+	+ [Utilities](/docs/utilities)
+	+ [Client and Server](/docs/client-and-server)
+	+ [Troubleshooting](/docs/troubleshooting)
+* ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Guides](/_next/image?url=%2Fimg%2Frouting.svg&w=32&q=75)![Guides](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Guides](/_next/image?url=%2Fimg%2Frouting-white.svg&w=32&q=75)![Guides](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)Guides
+	+ [Blitz Auth with Next.js](/docs/blitz-auth-with-next)
+	+ [Usage Guide Next.js 13](/docs/usage-next-13)
+* ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Framework Adapters](/_next/image?url=%2Fimg%2Fpages.svg&w=32&q=75)![Framework Adapters](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Framework Adapters](/_next/image?url=%2Fimg%2Fpages-white.svg&w=32&q=75)![Framework Adapters](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)Framework Adapters
+	+ [@blitzjs/next](/docs/blitzjs-next)
+* ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Blitz Auth](/_next/image?url=%2Fimg%2Fshield-purple.svg&w=32&q=75)![Blitz Auth](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Blitz Auth](/_next/image?url=%2Fimg%2Fshield-white.svg&w=32&q=75)![Blitz Auth](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)Blitz Auth
+	+ [Overview](/docs/auth)
+	+ [Setup](/docs/auth-setup)
+	+ [Configuration](/docs/auth-config)
+	+ [Sessions](/docs/session-management)
+	+ [Server-Side APIs](/docs/auth-server)
+	+ [Client-Side APIs](/docs/auth-client)
+	+ [Authorization & Security](/docs/authorization)
+	+ [Third Party Login w/Passport.js](/docs/passportjs)
+	+ [Third Party Login w/NextAuth](/docs/next-auth)
+	+ [How To Impersonate Other Users](/docs/impersonation)
+* ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Blitz RPC](/_next/image?url=%2Fimg%2Fqueries.svg&w=32&q=75)![Blitz RPC](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Blitz RPC](/_next/image?url=%2Fimg%2Fqueries-white.svg&w=32&q=75)![Blitz RPC](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)Blitz RPC
+	+ [Overview](/docs/rpc-overview)
+	+ [Setup](/docs/rpc-setup)
+	+ [Configuration](/docs/rpc-config)
+	+ [Query Resolvers](/docs/query-resolvers)
+	+ [Use Queries](/docs/query-usage)
+	+ [Mutation Resolvers](/docs/mutation-resolvers)
+	+ [Use Mutations](/docs/mutation-usage)
+	+ [Client Utilities](/docs/resolver-client-utilities)
+	+ [Server Utilities](/docs/resolver-server-utilities)
+	+ [useQuery](/docs/use-query)
+	+ [usePaginatedQuery](/docs/use-paginated-query)
+	+ [useInfiniteQuery](/docs/use-infinite-query)
+	+ [useMutation](/docs/use-mutation)
+	+ [RPC Specification](/docs/rpc-specification)
+* ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Backend Architecture](/_next/image?url=%2Fimg%2Fmutations.svg&w=32&q=75)![Backend Architecture](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Backend Architecture](/_next/image?url=%2Fimg%2Fmutations-white.svg&w=32&q=75)![Backend Architecture](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)Backend Architecture
+	+ [Multitenancy](/docs/multitenancy)
+* ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Database](/_next/image?url=%2Fimg%2Fdatabase.svg&w=32&q=75)![Database](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Database](/_next/image?url=%2Fimg%2Fdatabase-white.svg&w=32&q=75)![Database](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)Database
+	+ [Overview](/docs/database-overview)
+	+ [Run Postgres Locally](/docs/postgres)
+	+ [Seeds](/docs/database-seeds)
+	+ [Prisma Utilities](/docs/prisma)
+* ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Recipes](/_next/image?url=%2Fimg%2Frecipe-purple.svg&w=32&q=75)![Recipes](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Recipes](/_next/image?url=%2Fimg%2Frecipe-white.svg&w=32&q=75)![Recipes](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)Recipes
+	+ [Using Recipes](/docs/using-recipes)
+	+ [Writing Recipes](/docs/writing-recipes)
+* ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![CLI](/_next/image?url=%2Fimg%2Fterminal-purple.svg&w=32&q=75)![CLI](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![CLI](/_next/image?url=%2Fimg%2Fterminal-white.svg&w=32&q=75)![CLI](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)CLI
+	+ [Overview](/docs/cli-overview)
+	+ [blitz new](/docs/cli-new)
+	+ [blitz dev](/docs/cli-dev)
+	+ [blitz start](/docs/cli-start)
+	+ [blitz build](/docs/cli-build)
+	+ [blitz prisma](/docs/cli-prisma)
+	+ [blitz generate](/docs/cli-generate)
+	+ [blitz codegen](/docs/cli-codegen)
+	+ [blitz routes](/docs/cli-routes)
+	+ [blitz console](/docs/cli-console)
+	+ [blitz install](/docs/cli-install)
+* ![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Templates](/_next/image?url=%2Fimg%2Ftemplate-purple.svg&w=32&q=75)![Templates](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+)![Templates](/_next/image?url=%2Fimg%2Ftemplate-white.svg&w=32&q=75)![Templates](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)Templates
+	+ [Blitz Templates](/docs/templates)
+Want to receive the latest news and updates from the Blitz team? Sign up for our newsletter!
+

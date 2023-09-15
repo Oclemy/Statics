@@ -1,0 +1,52 @@
+# Logging
+
+
+
+Blitz uses [tslog](https://tslog.js.org) as its default logger. You can
+configure it by modifying the `logger` property in your
+`app/blitz-server.ts` file.
+
+In new Blitz apps you can find the `logger` property to be configured like
+this:
+
+
+```typescript
+// app/blitz-server.ts
+
+import { setupBlitzServer } from "@blitzjs/next"
+import { BlitzLogger } from "blitz"
+
+const { gSSP, gSP, api } = setupBlitzServer({
+  logger: BlitzLogger({}),
+})
+```
+You can pass in any of the
+[tslog options](https://tslog.js.org/#/?id=settings) to configure the
+logger.
+
+For example:
+
+
+```typescript
+// app/blitz-server.ts
+
+import { setupBlitzServer } from "@blitzjs/next"
+import { BlitzLogger } from "blitz"
+
+const { gSSP, gSP, api } = setupBlitzServer({
+  logger: BlitzLogger({
+    colorizePrettyLogs: true,
+    prefix: ["[blitz]"],
+  }),
+})
+```
+This configuration will be used by Blitz packages like RPC, and Auth.
+
+## Blitz RPC Logging Setup
+
+The `logger` setup in `app/blitz-server.ts` is used by Blitz RPC to provide robust logging. [There are additional logging options](https://blitzjs-com-git-siddhsuresh-blitz-rpc-verbose-blitzjs.vercel.app/docs/rpc-config#blitz-rpc-logging) for RPC verbosity, whether to log input, output, and filters for specific RPC endpoints.
+
+
+
+---
+

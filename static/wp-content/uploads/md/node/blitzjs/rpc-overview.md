@@ -1,0 +1,26 @@
+# Overview
+
+Blitz "Zero-API" data layer (Blitz RPC) is focused on making the
+communication between server and client seamless. It lets you
+
+**import server code directly into your components** instead of having to manually add API endpoints and do client-side fetching and caching.Here's a quick overview:
+
+![Architecture diagram](/img/architecture-alt.png)
+
+#### Queries and mutations
+
+Queries and mutations only run on the server — at build time, the direct
+function import is replaced with an RPC network call. So the query
+function code is never included in your client code. It's instead moved to
+an API layer.
+
+
+
+---
+
+Read more about the [RPC plugin setup](/docs/rpc-setup).
+
+
+
+---
+

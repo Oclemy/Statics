@@ -1,0 +1,64 @@
+# Route Manifest
+
+
+
+Blitz generates a *Route Manifest* for you. It allows you to refer to a
+page by *name* instead of *location*:
+
+
+```typescript
+// Assume you have a page at app/pages/products/[productId].tsx
+export default function ProductsPage() { ...
+
+// You can then use Routes...
+import { Routes } from "@blitzjs/next"
+import Link from "next/link"
+
+// ...to refer to it by name...
+<Link href={Routes.ProductsPage({ productId: 123 })} />
+
+// ...instead of looking up the location!
+<Link href={`/products/${123}`} />
+```
+The *Route Manifest* is a purely optional feature. It has some advantages,
+though:
+
+* improved expressiveness
+* simplifies moving pages to new locations
+
+## Query Parameters
+
+Query parameters can be specified together with route parameters.
+
+
+```typescript
+// instead of ...
+<Link href={`/products/${pid}?offerCode=capybara`} />
+
+// ... you can do:
+<Link href={Routes.Product({ pid, offerCode: "capybara" })} />
+```
+## Generating the Manifest
+
+The Route Manifest is generated into `node_modules/.blitz` directly from
+your source code. Both [`blitz build`](./cli-build) and
+[`blitz dev`](./cli-dev) will automatically keep it up-to-date.  
+
+If you need to manually generate the route manifest (for example for a
+typecheck in CI) use [`blitz codegen`](./cli-codegen).
+
+## Using hash URLs
+
+To create a hash URL [follow the Next JS docs](https://nextjs.org/docs/pages/api-reference/components/link#with-url-object) and spread the route manifest to populate the `pathname` and `query` part of the URL object. This works for `useRouter()` with `router.push` as well as for the Next JS `Link` component.
+
+
+```typescript
+<Link href={{
+ ...Routes.Product({ pid, offerCode: "capybara" }), 
+ hash: 'yourHash'
+}} />
+```
+
+
+---
+

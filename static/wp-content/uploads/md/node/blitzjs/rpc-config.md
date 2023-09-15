@@ -1,0 +1,133 @@
+# Configuration
+
+
+
+You can configure certain RPC aspects within your `next.config.js` file
+inside the blitz property.
+
+## Changing resolverPath option
+
+To change how every file path is resolved, you can set the `resolverPath`
+option inside `next.config.js`.
+
+
+```typescript
+module.exports = withBlitz({
+  blitz: {
+    resolverPath: "queries|mutations",
+  },
+})
+
+// Or with a custom function
+module.exports = withBlitz({
+  blitz: {
+    resolverPath: (filePath) => {
+      return filePath.replace("app/", "") // Removes `app/` from the path
+    },
+  },
+})
+```
+There are three options to determine how the RPC path is resolved during
+build.
+
+* `queries|mutations` (default)
+	+ Use the `queries` or `mutations` folder as the root
+* `root`
+	+ Uses the path starting from the root of the project
+* Custom function
+	+ This function gets called for every file path that needs to be
+	resolved.
+
+Example output:
+
+
+```typescript
+File: src/products/queries/getProduct.ts
+"queries|mutations" URL: /api/rpc/getProduct
+"root" URL: src/products/queries/getProduct
+
+File: src/products/mutations/createProduct.ts
+"queries|mutations" URL: /api/rpc/createProduct
+"root" URL: src/products/mutations/createProduct
+
+File: src/products/mutations/v2/createProduct.ts
+"queries|mutations" URL: /api/rpc/v2/createProduct
+"root" URL: src/products/mutations/v2/createProduct
+```
+## Resolvers in a separate folder
+
+Inside the `blitz` property add the param `includeRPCFolders` as an array
+of relative path folders from your Blitz root folder. For example:
+
+
+```typescript
+module.exports = withBlitz({
+  blitz: {
+    includeRPCFolders: ["../../<YOUR DIRECTORY PATH>"],
+  },
+})
+```
+##### Note
+
+ Your resolvers still need to be placed in `queries` or `mutations`
+folders.
+
+## Logging Setup
+
+In your `[[...blitz]].ts` api file you can see the following settings in the `rpcHandler`
+
+
+```typescript
+logging?: {
+  /\*\*
+ \* allowList Represents the list of routes for which logging should be enabled
+ \* If whiteList is defined then only those routes will be logged
+ \*/
+  allowList?: string[]
+  /\*\*
+ \* blockList Represents the list of routes for which logging should be disabled
+ \* If blockList is defined then all routes except those will be logged
+ \*/
+  blockList?: string[]
+  /\*\*
+ \* verbose Represents the flag to enable/disable logging
+ \* If verbose is true then Blitz RPC will log the input and output of each resolver
+ \*/
+  verbose?: boolean
+  /\*\*
+ \* disablelevel Represents the flag to enable/disable logging for a particular level
+ \*/
+  disablelevel?: "debug" | "info"
+}
+```
+##### Note
+
+ Blitz RPC defaults to:
+
+* `verbose` to be true if it not configured.
+* The `input` and `resolver completion time` will be logged with the `info` level.
+* The `result` and `next.js serialization time` will be logged with the `debug` level.
+Example:
+
+
+```typescript
+export default api(
+  rpcHandler({
+    onError: console.log,
+    formatError: (error) => {
+      error.message = `FormatError handler: ${error.message}`
+      return error
+    },
+    logging: {
+      verbose: true,
+      blockList: ["getCurrentUser", ...], //just write the resolver name [which is the resolver file name]
+    },
+  })
+)
+```
+This is will enable verbose Blitz RPC logging for all resolvers except the resolvers `getCurrentUser` and others mentioned in the `blockList`
+
+
+
+---
+

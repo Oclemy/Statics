@@ -1,0 +1,27 @@
+# blitz codegen
+
+**Alias: `blitz cg`**
+
+Use this command to generate the [Route Manifest](./route-manifest) and
+Prisma client (if Prisma schema is defined in `package.json`).
+
+#### Options
+
+
+
+| Option | Shorthand | Description | Default |
+| --- | --- | --- | --- |
+| `--env` | `-e` | Set app environment name. [Read more](/docs/custom-environments#custom-environments). | None |
+
+#### Example
+
+
+```typescript
+> blitz codegen
+
+✔ Compiled
+```
+
+
+---
+
