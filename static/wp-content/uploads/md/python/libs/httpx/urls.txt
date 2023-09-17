@@ -1,0 +1,12 @@
+"https://www.python-httpx.org/",
+"https://www.python-httpx.org/quickstart/",
+"https://www.python-httpx.org/advanced/",
+"https://www.python-httpx.org/async/",
+"https://www.python-httpx.org/http2/",
+"https://www.python-httpx.org/logging/",
+"https://www.python-httpx.org/compatibility/",
+"https://www.python-httpx.org/troubleshooting/",
+"https://www.python-httpx.org/api/",
+"https://www.python-httpx.org/exceptions/",
+"https://www.python-httpx.org/environment_variables/",
+"https://www.python-httpx.org/third_party_packages/"
