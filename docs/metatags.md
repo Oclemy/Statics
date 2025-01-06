@@ -1,4 +1,8 @@
-## Privacy Policy
+---
+title: 'SEO Meta Tags Privacy Policy'
+excerpt: ''
+---
+**Privacy Policy**
 
 Clement Ochieng built the Meta Tags Generator App as a Freemium app. This SERVICE is provided by Clement Ochieng and is intended for use as is.
 
