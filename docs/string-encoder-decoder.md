@@ -19,7 +19,7 @@ For a better experience, while using our Service, I may require you to provide u
 The app does use third-party services that may collect information used to identify you.
 
 Link to the privacy policy of third-party service providers used by the app
-
+- [AppBrain](https://www.appbrain.com/info/help/privacy/sdk-privacy.html)
 - Google Play Services
 
 #### Log Data
