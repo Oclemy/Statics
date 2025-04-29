@@ -1,10 +1,10 @@
 ---
-title: Q3 Chat App Privacy Policy
+title: Q Chat App Privacy Policy
 ---
 
 **Privacy Policy**
 
-Clement Ochieng built the Q3 Chat App as a Freemium app. This SERVICE is provided by Clement Ochieng and is intended for use as is.
+Clement Ochieng built the Q Chat App as a Freemium app. This SERVICE is provided by Clement Ochieng and is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
 
