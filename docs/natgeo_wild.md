@@ -1,4 +1,4 @@
-## NatGeo WIld HD App Privacy Policy
+# NatGeo WIld HD App Privacy Policy
 
 **Privacy Policy**
 
