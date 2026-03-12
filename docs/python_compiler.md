@@ -1,5 +1,5 @@
 ---
-title:Python IDE & Compiler App Privacy Policy
+title: Python IDE abd Compiler App Privacy Policy
 ---
 
 **Privacy Policy**
