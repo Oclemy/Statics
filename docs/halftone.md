@@ -1,4 +1,3 @@
-
 ---
 title: Halftone Art Studio App Privacy Policy
 ---
